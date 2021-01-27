@@ -1,0 +1,153 @@
+body {
+  margin: 0.5em 0;
+}
+
+* p {
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(43, 42, 42);
+}
+
+* li {
+  font-family: "roboto", sans-serif;
+  padding-bottom: 0.5em;
+}
+
+#logo {
+  width: 170px;
+  height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5em;
+}
+
+#arrow {
+  font-size: 20px;
+  color: rgb(43, 42, 42);
+  position: relative;
+  bottom: 1.4em;
+  left: 2em;
+}
+
+#img-nav {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: -0.5em;
+}
+
+#bloc {
+  background-color: rgba(241, 237, 237, 1);
+  border-radius: 30px 30px 0 0 / 30px;
+  padding: 2em 1em 1.5em 1em;
+  margin-top: -4em;
+  position: relative;
+}
+
+#bloc h1 {
+  margin: 0 0 0 0.2em;
+  font-family: "Shrikhand", cursive;
+  font-weight: 100;
+  font-size: xx-large;
+}
+
+i.far.fa-heart {
+  float: right;
+  font-size: 27px;
+  color: rgb(49, 49, 49);
+  position: relative;
+  right: 1em;
+  top: 0.3em;
+}
+
+h4 {
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(43, 42, 42);
+  margin: 2.5em 0em 0.4em 0.5em;
+}
+
+.ligne {
+  width: 2.5em;
+  height: 3px;
+  background-color: #99e2d0;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.cadre-text {
+  background-color: white;
+  border-radius: 10px / 10px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  box-shadow: 0px 6px 8px 0px rgb(230, 230, 230);
+}
+
+.cadre-text p {
+  margin: 0;
+  padding: 0.2em;
+}
+
+.plat {
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  font-size: 19.5px;
+}
+
+.prix {
+  float: right;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: 3em auto;
+  padding: 1em 3em;
+  border-radius: 30px / 30px;
+  background-color: #ce69db;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-family: "roboto", sans-serif;
+  box-shadow: 0px 6px 8px 0px rgb(180, 180, 180);
+}
+
+button:hover {
+  opacity: 0.8;
+  box-shadow: 0px 6px 8px 0px rgb(120, 120, 120);
+}
+
+footer {
+  background-color: rgb(43, 42, 42);
+  padding-bottom: 0.5em;
+}
+
+footer h3 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 100;
+  color: white;
+  padding: 1em 0 0 1.3em;
+  margin-top: 0;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+  padding-left: 1.5em;
+}
+
+.logo-bas1 {
+  padding-right: 0.6em;
+  font-size: 14px;
+}
+
+.logo-bas2 {
+  font-size: 12px;
+  padding-right: 0.4em;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
