@@ -12,7 +12,8 @@ body {
   font-family: "roboto", sans-serif;
 }
 
-* h1 {
+* h1,
+h2 {
   font-family: "roboto", sans-serif;
   font-weight: 700;
 }
@@ -35,7 +36,7 @@ body {
   font-weight: bold;
 }
 
-#map {
+i.fas.fa-map-marker-alt {
   position: relative;
   right: 0.6em;
 }
@@ -78,7 +79,7 @@ button:hover {
 }
 
 #padding {
-  padding: 0 1em 0 1em;
+  padding: 0 1em;
 }
 
 ol {
@@ -112,19 +113,19 @@ section li::before {
   box-shadow: 0px 6px 8px 0px rgb(230, 230, 230);
 }
 
-.logo1 {
+i.fas.fa-mobile-alt {
   padding-right: 1.3em;
   font-size: 19px;
   color: gray;
 }
 
-.logo2 {
+i.fas.fa-list-ul {
   padding-right: 1em;
   font-size: 18px;
   color: gray;
 }
 
-.logo3 {
+i.fas.fa-store {
   padding-right: 1em;
   font-size: 16px;
   color: gray;
@@ -137,7 +138,7 @@ section li::before {
   padding-top: 2em;
 }
 
-#bloc h1 {
+#bloc h2 {
   margin-bottom: 0;
   padding-left: 0.8em;
 }
@@ -187,10 +188,6 @@ i.far.fa-heart {
   margin: 0;
 }
 
-i.far.fa-heart:hover {
-  background-color: pink;
-}
-
 .new {
   display: flex;
   justify-content: flex-end;
@@ -227,12 +224,12 @@ ul {
   padding-left: 1.5em;
 }
 
-.logo-bas1 {
+i.fas.fa-utensils {
   padding-right: 0.6em;
   font-size: 14px;
 }
 
-.logo-bas2 {
+i.fas.fa-hands-helping {
   font-size: 12px;
   padding-right: 0.4em;
 }
@@ -240,4 +237,149 @@ ul {
 li a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (min-width: 500px) and (max-width: 810px) {
+  nav {
+    margin-bottom: 1.5em;
+  }
+
+  #padding h2 {
+    text-align: center;
+  }
+
+  ol {
+    margin: 0 3em;
+  }
+
+  .bloc-li {
+    width: 95%;
+  }
+
+  #bloc h2 {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+  }
+
+  #paquet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .cadre-img {
+    width: 47%;
+    margin: 0 0 1.5em 0;
+  }
+}
+
+@media screen and (min-width: 810px) and (max-width: 925px) {
+  nav {
+    margin: 0 1em;
+  }
+
+  #padding {
+    padding: 0 0.5em;
+  }
+
+  #padding h2 {
+    text-align: center;
+  }
+
+  ol {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    margin-right: 0.6em;
+  }
+
+  li.bloc-li::before {
+    margin: 0;
+  }
+
+  i.fas.fa-mobile-alt::before,
+  i.fas.fa-list-ul::before,
+  i.fas.fa-store::before {
+    padding: 0;
+  }
+
+  #bloc {
+    margin-top: 2em;
+  }
+
+  #bloc h2 {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+  }
+
+  #paquet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .cadre-img {
+    width: 47%;
+    margin: 0 0 1.5em 0;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  nav {
+    margin: 0 4em;
+  }
+
+  #padding {
+    padding: 0 0.5em;
+  }
+
+  #padding h2 {
+    text-align: center;
+  }
+
+  ol {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  li {
+    margin: 1em;
+  }
+
+  #bloc h2 {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+  }
+
+  #paquet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .cadre-img {
+    width: 24%;
+    margin: 0 0 1.5em 0;
+  }
+
+  h3 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+  }
 }
